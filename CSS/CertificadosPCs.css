@@ -40,7 +40,8 @@
 
     a {
 
-        text-align: center;
+        display: flex;
+        justify-content: center;
         text-decoration: none;
         color: #F2E3D5;
         font-size: 25px;
@@ -53,4 +54,5 @@
         color: #F24405;
         transition: color 0.4s ease-in-out;
     }
+
 }
