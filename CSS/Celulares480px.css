@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+
+}
+
+body {
+    background-color: #033742;
+    color: #F2E3D5;
+
+}
+
+
+/*RESPONSIVIDADE CELULARES ABAIXO DE 480PIXELS*/
+@media screen and (max-width: 480px) {
+
+h1 {
+    display: none;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+header a {
+    display: none;
+
+
+}
+
+img#MinhaImagem {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  
+}
+
+img#MinhaImagem {
+    width: 200px;
+    height: 200px;
+    transform: translateY(-750px);
+    margin-left: 85px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img#Fundo {
+    transform: translateY(-50px);
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: 800px;
+    z-index:  -1;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    border-radius: 45px;
+    font-size: 30px;
+    border-style: none;
+    background-color: #F24405;
+    color: #F2E3D5;
+    margin-left: 60px;
+    transform: translateY(-520px);
+
+}
+
+header h2 {
+    font-size: 35px;
+    transform: translateY(-800px);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+header h3 {
+    font-size: 35px;
+    transform: translateY(-800px);
+    width: fit-content;
+    margin: 0 auto;
+    color: #F24405;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main article#projetos h2 {
+    transform: translateY(-360px);
+    font-size: 35px;
+
+}
+
+main article#projetos div#containerpai1 {
+    display: flex;
+    justify-content: space-between;        
+    height: 500px;
+    flex-wrap: wrap;
+    transform: translateY(-280px);
+}
+
+main article#projetos div#pro a img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main article#conquistas h2 {
+    transform: translateY(-250px);
+    font-size: 35px;    
+
+
+}
+
+main article#conquistas div#containerpai2 {
+    transform: translateY(-180px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main article#conquistas div#conq img{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}   
+
+main article#contato h2 {
+    transform: translateY(-100px);
+    font-size: 35px;    
+
+
+}
+
+main article#contato div#icon {
+    text-align: center;
+
+}
+
+main article#contato a {
+    color: #F2E3D5;
+
+
+}
+
+main article#contato i {
+    font-size: 70px;
+    padding: 20px;
+}
+
+
+footer h2{
+    padding-top: 20px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+footer h3 {
+    padding-top: 10px;
+    color: #F24405;
+    font-size: 20px;
+    text-align: center;
+}
+
+    
+footer {
+    border-top: 2px solid #F2E3D5;
+    transform: translateY(200px);
+    padding-bottom: 30px;
+        
+}
+  
+
+}
+

@@ -1,0 +1,56 @@
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+   
+   
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    img {
+        width: 450px;
+        height: 450px;
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        border: 2px solid black;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+
+    }
+
+    p {
+        text-align: center;
+        padding: 20px;
+
+    }
+
+
+
+    a {
+
+        text-align: center;
+        text-decoration: none;
+        color: #F2E3D5;
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+    }
+
+    a:hover {
+        color: #F24405;
+        transition: color 0.4s ease-in-out;
+    }
+}
